@@ -1,0 +1,34 @@
+/* Write your CSS Here. */
+
+.movie-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movieCard {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 3px double #928c8c;
+  background-color: #b0e4f1;
+  
+}
+
+h1 {
+  color: #7cad1a;
+}
+h2 {
+  color: #7cad1a;
+}
+
+h3 {
+  color: #246B8F;
+}
+
+h4 {
+color: #8f246b;
+}
+
+label {
+  color: #246B8F
+}

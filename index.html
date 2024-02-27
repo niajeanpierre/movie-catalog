@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="Kenzie" />
+    <meta name="author" content="Kenzie" />
+    <meta name="keywords" content="Kenzie" />
+
+    <!-- Title Page-->
+    <title>Movie Catalog</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body style="text-align: center;">
+    <h1>Movie Catalog</h1>
+    <div>
+      <label for= "title" >Search by Movie Title:</label>
+      <input type="text" name="title" id="title" placeholder="Enter Title">
+    </div>
+    <div>
+      <label for= "actname" >Search by Actor/Actress:</label>
+      <input type="text" name="name" id="actor" placeholder="Enter Name">
+    </div>
+    <button type="button" id="btn">Search!</button> 
+    <div id="gallery">
+      <!-- your generated movie cards will be rendered via JavaScript -->
+    </div>
+    <script src="movieDetails.js"></script>
+    <script src="movies.js"></script>
+    <script src="code.js"></script>
+    <script src="validate.js"></script>
+  </body>
+</html>
